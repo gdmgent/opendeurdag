@@ -1,0 +1,42 @@
+# Site settings
+# -------------
+baseurl : /opendeurdag # the subpath of your site, e.g. /blog
+host    : 127.0.0.1
+port    : 4101
+
+# SEO
+# ---
+domain      : Artevelde University College Ghent
+subdomain   : Bachelor of Graphical and Digital Media
+title       : Opendeurdag
+description : Opendeurdag opleiding Bachelor in de grafische en digitale media
+author      : Bachelor of Graphical and Digital Media | Artevelde University College Ghent
+copyright   : Copyright 2010-18 Artevelde University College Ghent. All Rights Reserved.
+
+# Google Services
+# ---------------
+google-analytics-tracking_id: UA-18202861-3
+
+# Where things are from Jekyll
+# ----------------------------
+data_dir      : /_data
+includes_dir  : /_includes
+layouts_dir   : /_layouts
+
+# Build settings
+# --------------
+plugins_dir:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+sass:
+  sass_dir: /_sass
+exclude:
+  - Gemfile
+  - LICENSE
+  - README.md
