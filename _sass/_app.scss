@@ -47,10 +47,20 @@ $white:         #ffffff;
 }
     
 body {
-  background: url('../assets/images/cover.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background: #FEFEFE;
 }
     
-img {
-  width: 500px;
+.hero {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  & > img {
+    width: 72%;
+  }
 }  
